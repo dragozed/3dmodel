@@ -36,7 +36,3 @@ function handlePartPrices(value, i) {
   price = parts.join(".");
   document.getElementById("price-number").innerHTML = price;
 }
-
-/*var parts = price.toString().split(".");
-parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-price = parts.join(".");*/
